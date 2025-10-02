@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/unit_tests.dir/link.d CMakeFiles/unit_tests.dir/tests/unit.cpp.o -o unit_tests  libfunc.a lib/libgtest_main.a lib/libgtest.a
