@@ -72,28 +72,28 @@ include CMakeFiles/func.dir/flags.make
 CMakeFiles/func.dir/codegen:
 .PHONY : CMakeFiles/func.dir/codegen
 
-CMakeFiles/func.dir/task/func.cpp.o: CMakeFiles/func.dir/flags.make
-CMakeFiles/func.dir/task/func.cpp.o: /home/aks/workspace/MAI_OOP/task1/task/func.cpp
-CMakeFiles/func.dir/task/func.cpp.o: CMakeFiles/func.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aks/workspace/MAI_OOP/task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/func.dir/task/func.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/task/func.cpp.o -MF CMakeFiles/func.dir/task/func.cpp.o.d -o CMakeFiles/func.dir/task/func.cpp.o -c /home/aks/workspace/MAI_OOP/task1/task/func.cpp
+CMakeFiles/func.dir/src/function/function.cpp.o: CMakeFiles/func.dir/flags.make
+CMakeFiles/func.dir/src/function/function.cpp.o: /home/aks/workspace/MAI_OOP/task1/src/function/function.cpp
+CMakeFiles/func.dir/src/function/function.cpp.o: CMakeFiles/func.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aks/workspace/MAI_OOP/task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/func.dir/src/function/function.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/func.dir/src/function/function.cpp.o -MF CMakeFiles/func.dir/src/function/function.cpp.o.d -o CMakeFiles/func.dir/src/function/function.cpp.o -c /home/aks/workspace/MAI_OOP/task1/src/function/function.cpp
 
-CMakeFiles/func.dir/task/func.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/func.dir/task/func.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aks/workspace/MAI_OOP/task1/task/func.cpp > CMakeFiles/func.dir/task/func.cpp.i
+CMakeFiles/func.dir/src/function/function.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/func.dir/src/function/function.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aks/workspace/MAI_OOP/task1/src/function/function.cpp > CMakeFiles/func.dir/src/function/function.cpp.i
 
-CMakeFiles/func.dir/task/func.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/func.dir/task/func.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aks/workspace/MAI_OOP/task1/task/func.cpp -o CMakeFiles/func.dir/task/func.cpp.s
+CMakeFiles/func.dir/src/function/function.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/func.dir/src/function/function.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aks/workspace/MAI_OOP/task1/src/function/function.cpp -o CMakeFiles/func.dir/src/function/function.cpp.s
 
 # Object files for target func
 func_OBJECTS = \
-"CMakeFiles/func.dir/task/func.cpp.o"
+"CMakeFiles/func.dir/src/function/function.cpp.o"
 
 # External object files for target func
 func_EXTERNAL_OBJECTS =
 
-libfunc.a: CMakeFiles/func.dir/task/func.cpp.o
+libfunc.a: CMakeFiles/func.dir/src/function/function.cpp.o
 libfunc.a: CMakeFiles/func.dir/build.make
 libfunc.a: CMakeFiles/func.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/aks/workspace/MAI_OOP/task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfunc.a"

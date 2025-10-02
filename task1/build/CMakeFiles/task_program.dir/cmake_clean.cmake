@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/task_program.dir/link.d"
-  "CMakeFiles/task_program.dir/task/main.cpp.o"
-  "CMakeFiles/task_program.dir/task/main.cpp.o.d"
+  "CMakeFiles/task_program.dir/src/main.cpp.o"
+  "CMakeFiles/task_program.dir/src/main.cpp.o.d"
   "task_program"
   "task_program.pdb"
 )

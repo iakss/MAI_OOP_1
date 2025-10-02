@@ -13,9 +13,9 @@ FetchContent_MakeAvailable(googletest)
 
 enable_testing()
 
-add_library(func task/func.cpp)
+add_library(func STATIC src/function/function.hpp src/function/function.cpp)
 
-add_executable(task_program task/main.cpp)
+add_executable(task_program src/main.cpp)
 target_link_libraries(task_program func)
 
 add_executable(unit_tests tests/unit.cpp)

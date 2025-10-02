@@ -72,28 +72,28 @@ include CMakeFiles/task_program.dir/flags.make
 CMakeFiles/task_program.dir/codegen:
 .PHONY : CMakeFiles/task_program.dir/codegen
 
-CMakeFiles/task_program.dir/task/main.cpp.o: CMakeFiles/task_program.dir/flags.make
-CMakeFiles/task_program.dir/task/main.cpp.o: /home/aks/workspace/MAI_OOP/task1/task/main.cpp
-CMakeFiles/task_program.dir/task/main.cpp.o: CMakeFiles/task_program.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aks/workspace/MAI_OOP/task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_program.dir/task/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_program.dir/task/main.cpp.o -MF CMakeFiles/task_program.dir/task/main.cpp.o.d -o CMakeFiles/task_program.dir/task/main.cpp.o -c /home/aks/workspace/MAI_OOP/task1/task/main.cpp
+CMakeFiles/task_program.dir/src/main.cpp.o: CMakeFiles/task_program.dir/flags.make
+CMakeFiles/task_program.dir/src/main.cpp.o: /home/aks/workspace/MAI_OOP/task1/src/main.cpp
+CMakeFiles/task_program.dir/src/main.cpp.o: CMakeFiles/task_program.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/aks/workspace/MAI_OOP/task1/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/task_program.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/task_program.dir/src/main.cpp.o -MF CMakeFiles/task_program.dir/src/main.cpp.o.d -o CMakeFiles/task_program.dir/src/main.cpp.o -c /home/aks/workspace/MAI_OOP/task1/src/main.cpp
 
-CMakeFiles/task_program.dir/task/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_program.dir/task/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aks/workspace/MAI_OOP/task1/task/main.cpp > CMakeFiles/task_program.dir/task/main.cpp.i
+CMakeFiles/task_program.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/task_program.dir/src/main.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/aks/workspace/MAI_OOP/task1/src/main.cpp > CMakeFiles/task_program.dir/src/main.cpp.i
 
-CMakeFiles/task_program.dir/task/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_program.dir/task/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aks/workspace/MAI_OOP/task1/task/main.cpp -o CMakeFiles/task_program.dir/task/main.cpp.s
+CMakeFiles/task_program.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/task_program.dir/src/main.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/aks/workspace/MAI_OOP/task1/src/main.cpp -o CMakeFiles/task_program.dir/src/main.cpp.s
 
 # Object files for target task_program
 task_program_OBJECTS = \
-"CMakeFiles/task_program.dir/task/main.cpp.o"
+"CMakeFiles/task_program.dir/src/main.cpp.o"
 
 # External object files for target task_program
 task_program_EXTERNAL_OBJECTS =
 
-task_program: CMakeFiles/task_program.dir/task/main.cpp.o
+task_program: CMakeFiles/task_program.dir/src/main.cpp.o
 task_program: CMakeFiles/task_program.dir/build.make
 task_program: CMakeFiles/task_program.dir/compiler_depend.ts
 task_program: libfunc.a

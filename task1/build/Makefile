@@ -262,53 +262,53 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
-task/func.o: task/func.cpp.o
-.PHONY : task/func.o
+src/function/function.o: src/function/function.cpp.o
+.PHONY : src/function/function.o
 
 # target to build an object file
-task/func.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/task/func.cpp.o
-.PHONY : task/func.cpp.o
+src/function/function.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/src/function/function.cpp.o
+.PHONY : src/function/function.cpp.o
 
-task/func.i: task/func.cpp.i
-.PHONY : task/func.i
+src/function/function.i: src/function/function.cpp.i
+.PHONY : src/function/function.i
 
 # target to preprocess a source file
-task/func.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/task/func.cpp.i
-.PHONY : task/func.cpp.i
+src/function/function.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/src/function/function.cpp.i
+.PHONY : src/function/function.cpp.i
 
-task/func.s: task/func.cpp.s
-.PHONY : task/func.s
+src/function/function.s: src/function/function.cpp.s
+.PHONY : src/function/function.s
 
 # target to generate assembly for a file
-task/func.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/task/func.cpp.s
-.PHONY : task/func.cpp.s
+src/function/function.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/func.dir/build.make CMakeFiles/func.dir/src/function/function.cpp.s
+.PHONY : src/function/function.cpp.s
 
-task/main.o: task/main.cpp.o
-.PHONY : task/main.o
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
 
 # target to build an object file
-task/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/task/main.cpp.o
-.PHONY : task/main.cpp.o
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
 
-task/main.i: task/main.cpp.i
-.PHONY : task/main.i
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-task/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/task/main.cpp.i
-.PHONY : task/main.cpp.i
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
 
-task/main.s: task/main.cpp.s
-.PHONY : task/main.s
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-task/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/task/main.cpp.s
-.PHONY : task/main.cpp.s
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/task_program.dir/build.make CMakeFiles/task_program.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 tests/unit.o: tests/unit.cpp.o
 .PHONY : tests/unit.o
@@ -354,12 +354,12 @@ help:
 	@echo "... gtest_main"
 	@echo "... task_program"
 	@echo "... unit_tests"
-	@echo "... task/func.o"
-	@echo "... task/func.i"
-	@echo "... task/func.s"
-	@echo "... task/main.o"
-	@echo "... task/main.i"
-	@echo "... task/main.s"
+	@echo "... src/function/function.o"
+	@echo "... src/function/function.i"
+	@echo "... src/function/function.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 	@echo "... tests/unit.o"
 	@echo "... tests/unit.i"
 	@echo "... tests/unit.s"

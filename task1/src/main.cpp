@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "func.hpp"
+#include "function/function.hpp"
 
 int main() {
   std::string text;

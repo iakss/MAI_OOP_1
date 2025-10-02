@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aks/workspace/MAI_OOP/task1/task/func.cpp" "CMakeFiles/func.dir/task/func.cpp.o" "gcc" "CMakeFiles/func.dir/task/func.cpp.o.d"
+  "/home/aks/workspace/MAI_OOP/task1/src/function/function.cpp" "CMakeFiles/func.dir/src/function/function.cpp.o" "gcc" "CMakeFiles/func.dir/src/function/function.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

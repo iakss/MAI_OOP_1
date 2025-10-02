@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aks/workspace/MAI_OOP/task1/task/main.cpp" "CMakeFiles/task_program.dir/task/main.cpp.o" "gcc" "CMakeFiles/task_program.dir/task/main.cpp.o.d"
+  "/home/aks/workspace/MAI_OOP/task1/src/main.cpp" "CMakeFiles/task_program.dir/src/main.cpp.o" "gcc" "CMakeFiles/task_program.dir/src/main.cpp.o.d"
   "" "task_program" "gcc" "CMakeFiles/task_program.dir/link.d"
   )
 
