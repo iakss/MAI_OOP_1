@@ -5,7 +5,7 @@
 
 int main() {
   std::string text;
-  int n;
+  size_t n;
   char old_value, new_value;
   std::cout << "Номер целевой буквы, целевой символ, "
                "символ, который следует использовать в качестве замены, и "
