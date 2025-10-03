@@ -85,7 +85,7 @@ TEST_F(ChangeValueTest, SingleCharacterMatch) {
   EXPECT_EQ(text, "b");
 }
 
-// Test 16: Single character string no match
+// Test 12: Single character string no match
 TEST_F(ChangeValueTest, SingleCharacterNoMatch) {
   text = "a";
   ChangeValue(text, 1, 'b', 'c');
