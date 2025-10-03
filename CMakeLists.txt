@@ -17,9 +17,11 @@ add_library(func STATIC function/function.hpp function/function.cpp)
 
 add_executable(task_program main.cpp)
 target_link_libraries(task_program func)
+target_include_directories(task_program PUBLIC function)
 
 add_executable(unit_tests tests/unit.cpp)
 target_link_libraries(unit_tests func GTest::gtest_main)
+target_include_directories(unit_tests PUBLIC function)
 
 include(GoogleTest)
 gtest_discover_tests(unit_tests)

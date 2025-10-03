@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "../function/function.hpp"
+#include "function.hpp"
 
 class ChangeValueTest : public ::testing::Test {
 protected:
