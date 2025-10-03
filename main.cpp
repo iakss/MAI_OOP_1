@@ -1,10 +1,11 @@
 #include <iostream>
+#include <string>
 
 #include "function.hpp"
 
 int main() {
   std::string text;
-  size_t n;
+  int n;
   char old_value, new_value;
   std::cout << "Номер целевой буквы, целевой символ, "
                "символ, который следует использовать в качестве замены, и "
