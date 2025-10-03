@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.14)
-project(task1)
+project(MAI_OOP_1)
 
 set(CMAKE_CXX_STANDART 17)
 set(CMAKE_CXX_STANDART_REQUIRED ON)

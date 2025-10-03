@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/aks/workspace/MAI_OOP/task1/build/_deps/googletest-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
