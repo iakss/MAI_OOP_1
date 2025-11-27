@@ -1,7 +1,7 @@
+#include "function.hpp"
+
 #include <iostream>
 #include <string>
-
-#include "function.hpp"
 
 int main() {
   std::string text;
